@@ -9,24 +9,14 @@
 
 }
 .descricao{}
-.texto-progress-bar{
-    color:#000; 
 
-    text-align: left;
-    padding-left: 15px;
-}
+
+a:hover{text-decoration:none !important;}
+
 
 /*Cores*/
 .color-white{color: #FFF;}
-.color-web{
-    color: #357CB8;
-}
-.color-laravel{
-    color: #FB5541;
-}
-.color-html5{
-    color: #1C53F9;
-}
+
 
 /*Header*/
 .header{
@@ -35,7 +25,10 @@
     width: 100%;
     padding: 15px;
 }
-.nome{float: left;}
+.nome{
+    color: #FFF;
+    float: left;
+}
 ul.menu{
     list-style: none;
     float: right;
@@ -52,7 +45,7 @@ ul.menu li a{
     font-size: 16px;
 }
 ul.menu li a:hover{
-    color: #525252;
+    color: #BC8F8F;
     text-decoration: none;
 }
 
@@ -81,3 +74,29 @@ ul.menu li a:hover{
     padding-bottom: 20px;
     font-size: 30px;
 }
+
+/*Sobre*/
+.texto-progress-bar{
+    color:#000; 
+
+    text-align: left;
+    padding-left: 15px;
+}
+#minhaFoto{
+    max-width: 200px;
+}
+
+/*Portfólio*/
+.portfolio{}
+
+.imgPortfolio{
+    max-width:260px;
+    border: 10px solid #A9A9A9;
+}
+
+.tituloImgPortfolio{
+    font-size: 22px;
+
+}
+
+
