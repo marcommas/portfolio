@@ -143,3 +143,21 @@ form.formularioContato input[type="submit"]:hover{
     border-radius: 5px;
     border: 1px solid #A52A2A ;
 }
+
+/*Footer*/
+
+img.imgSociais{
+    padding: 5px;
+    max-width: 48px;
+}
+img.imgSociais:hover{
+    opacity: 0.6;
+}
+div.copyright{
+    padding: 5px;
+    margin: 0px;
+
+}
+p.copyright{
+    margin: 0px;
+}
