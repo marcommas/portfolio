@@ -2,6 +2,7 @@
 <html lang="pt-br">
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<link rel="icon" href="img/favicon.png" type="image/png" />
 	<title>Marco Comassetto</title>
@@ -207,7 +208,7 @@
 
 			<div class="col-sm-6 col-md-4">
 				<h1 class="tituloImgPortfolio">Gerenciamento de Questionário</h1>
-				<a href="gtquest.php">
+				<a href="gerenciamento-de-questionario.php">
 					<img src="img/GTQuest.png" class="imgPortfolio" alt="GTQuest" >
 				</a>
 				<h6>Saiba mais</h6>
@@ -291,23 +292,23 @@
 	<section class="copyright text-center ">
 
 		<a href="https://github.com/marcommas" target="_blank">
-			<img src="img/sociais/github.png" class="imgSociais" alt="Github: marcommas">
+			<img src="img/sociais/github.png" class="imgSociais" alt="Github: marcommas" title="Github: marcommas">
 		</a>
 		
 		<a href="https://br.linkedin.com/in/marco-antônio-comassetto-3a80507b" target="_blank">
-			<img src="img/sociais/linkedin.png" class="imgSociais" alt="Linkedin: Marco Comassetto">
+			<img src="img/sociais/linkedin.png" class="imgSociais" alt="Linkedin: Marco Comassetto" title="Linkedin: Marco Comassetto">
 		</a>
 
 		<a href="https://www.facebook.com/marco.comassetto" target="_blank">
-			<img src="img/sociais/facebook.png" class="imgSociais" alt="Facebook: Marco Comassetto">
+			<img src="img/sociais/facebook.png" class="imgSociais" alt="Facebook: Marco Comassetto" title="Facebook: Marco Comassetto">
 		</a>	
 
 		
-		<img src="img/sociais/skype.png" class="imgSociais" alt="skype: marco.desenvolvimento">
+		<img src="img/sociais/skype.png" class="imgSociais" alt="skype: marco.desenvolvimento" title="skype: marco.desenvolvimento">
 		
 
 		<a href="mailto:marcommas@gmail.com" >
-			<img src="img/sociais/gmail.png" class="imgSociais" alt="Gmail: marcommas@gmail.com">
+			<img src="img/sociais/gmail.png" class="imgSociais" alt="Gmail: marcommas@gmail.com" title="Gmail: marcommas@gmail.com">
 		</a>	
 
 		<p class="copyright padding-20">© Copyright <?php echo date('Y');?> - Desenvolvido por Marco Comassetto</p>

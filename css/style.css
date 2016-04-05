@@ -269,7 +269,7 @@ form.formularioContato input[type="submit"]:hover{
 
 img.imgSociais{
   padding: 5px;
-  max-width: 48px;
+  max-width: 36px;
 }
 img.imgSociais:hover{
   opacity: 0.6;
@@ -297,10 +297,9 @@ p.copyright{
 }
 
 
-
+/*Imagens das tecnologias*/
 ul.tecnologias{
   list-style: none;
- /* float: right;*/
   margin-top: 10px;
   margin-right:  10px ;
 }
@@ -308,9 +307,7 @@ ul.tecnologias li{
   display: inline;
 }
 ul.tecnologias li img{
-   display: inline;
-  margin: 0px 0px;
-  color: #FFF;
-  /* font-weight: bold; */
-  font-size: 16px;
+  display: inline;
+  margin: 2px 2px;
+
 }
