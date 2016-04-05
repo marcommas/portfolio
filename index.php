@@ -17,39 +17,46 @@
 </head>
 <body>
 	
-		
-	
-	<header class="header">
-		
-			<div class="nome">
-				<h2><span style="font-size: 40px;">M</span>arco <span style="font-size: 40px;">C</span>omassetto</h2>
-				<h5>Desenvolvedor de Software</h5>
-			</div>
-			
-			<nav>
-				<ul class="menu">
-					<li>
-						<a href=""  ><i class="fa fa-3x fa-home"></i> HOME</a>
-					</li>
-					<li>
-						<a href=""><i class="fa fa-3x fa-user"></i> SOBRE</a>
-					</li>
-					<li>
-						<a href=""><i class="fa fa-3x fa-desktop"></i> PORTFÓLIO</a>
-					</li>
-					<li>
-						<a href=""><i class="fa fa-3x fa-envelope-o"></i> CONTATO</a>
-					</li>
-				</ul>
-			</nav>
 
-		
-	</header>
+	<nav class="navbar header    navbar-fixed-top">
+
+		<div class="navbar-header">
+		    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+			    <span class="sr-only">Toggle navigation</span>
+			    <span class="icon-bar"></span>
+			    <span class="icon-bar"></span>
+			    <span class="icon-bar"></span>
+		    </button>
+
+		    
+	    	<a href="#" class="nome" >
+	    		<h2 class="nome"><span style="font-size: 40px;">M</span>arco <span style="font-size: 40px;">C</span>omassetto</h2>
+	    		<h5 class="nomeComplemento" >Desenvolvedor de Software</h5>
+	    	</a>
+			
+		</div>
+		<div id="navbar" class="navbar-collapse collapse">
+		    <ul class="nav menu navbar-nav navbar-right ">
+
+				<li>
+					<a href="#sobre"><i class="fa fa-3x fa-user"></i> SOBRE</a>
+				</li>
+				<li>
+					<a href="#portfolio"><i class="fa fa-3x fa-desktop"></i> PORTFÓLIO</a>
+				</li>
+				<li>
+					<a href="#contato"><i class="fa fa-3x fa-envelope-o"></i> CONTATO</a>
+				</li>
+		    </ul>
+		</div>
+
+	</nav>
+
 	<!-- Final do Header-->
 
 	<div class="clear"></div>
 
-	<section class="slide text-center backgound-parallax-slide color-white">
+	<section id="home" class="slide text-center backgound-parallax-slide color-white">
 
 			<h1 class="titulo-slide">Bem-vindo ao meu Portfólio</h1>
 			<p class="descricao-slide">Navegue pelo site e conheça um pouco mais sobre mim :)</p>
@@ -57,7 +64,7 @@
 	</section>	
 	<!--Final da Section>-->
 	
-	<section class="sobre padding-40">
+	<section id="sobre" class="sobre padding-40">
 		<div class="container ">
 			<h1 class="titulo"><i class="fa fa-2x fa-home"></i> Quem sou eu?</h1>
 			<div class="divider"></div>
@@ -191,7 +198,7 @@
 	<!--Final da Sobre>-->
 
 
-	<section class="portfolio padding-40">
+	<section id="portfolio" class="portfolio padding-40">
 		<div class="container">
 			<h1 class="titulo"><i class="fa fa-2x fa-desktop"></i> Portfólio</h1>
 			<div class="divider"></div>
@@ -200,7 +207,7 @@
 
 			<div class="col-sm-6 col-md-4">
 				<h1 class="tituloImgPortfolio">Gerenciamento de Questionário</h1>
-				<a href="">
+				<a href="gtquest.php">
 					<img src="img/GTQuest.png" class="imgPortfolio" alt="GTQuest" >
 				</a>
 				<h6>Saiba mais</h6>
@@ -253,9 +260,9 @@
 	</section>
 	<!--Final da Portfolio>-->
 
-	<section class="contato padding-40">
+	<section  class="contato padding-40">
 		<div class="container">
-			<h1 class="titulo"><i class="fa fa-2x fa-envelope-o"></i> Contato</h1>
+			<h1 id="contato" class="titulo"><i class="fa fa-2x fa-envelope-o"></i> Contato</h1>
 			<div class="divider"></div>
 			
 			<div class="padding-40 "></div>
