@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<link rel="icon" href="img/favicon.png" type="image/png" />
-	<title>Gerenciamento de Questionário</title>
+	<title>Academia</title>
 	
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
@@ -66,62 +66,55 @@
 
 	<section id="portfolio" class="portfolio padding-100">
 		<div class="container">
-			<h1 class="titulo"> Gerenciamento de Enquetes</h1>
+			<h1 class="titulo"> Academia</h1>
 			<div class="divider"></div>
 			
 			<div class="row">
 				<div class="padding-40 col-md-6">
-					<a href="img/gtQuest/quest3.png" data-lightbox="example-set" data-title="Titulo">
-						<img class="imagemPrincipal img-responsive" src="img/gtQuest/quest3.png" alt=""/>
+					<a href="img/academia/academia3.png" data-lightbox="example-set" data-title="Titulo">
+						<img class="imagemPrincipal img-responsive" src="img/academia/academia3.png" alt=""/>
 					</a>
 
 					<div class="padding-10">
-						<a href="img/gtQuest/quest2.png" data-lightbox="example-set" data-title="Titulo">
-							<img class="imagemSecundaria col-md-4 img-responsive" src="img/gtQuest/quest2.png" alt=""/>
+						<a href="img/academia/academia2.png" data-lightbox="example-set" data-title="Titulo">
+							<img class="imagemSecundaria col-md-4 img-responsive" src="img/academia/academia2.png" alt=""/>
 						</a>
 
-						<a href="img/gtQuest/quest4.png" data-lightbox="example-set" data-title="Titulo">
-							<img class="imagemSecundaria col-md-4 img-responsive" src="img/gtQuest/quest6.png" alt=""/>
+						<a href="img/academia/academia7.png" data-lightbox="example-set" data-title="Titulo">
+							<img class="imagemSecundaria col-md-4 img-responsive" src="img/academia/academia7.png" alt=""/>
 						</a>
 
-						<a href="img/gtQuest/quest6.png" data-lightbox="example-set" data-title="Titulo">
-							<img class="imagemSecundaria col-md-4 img-responsive" src="img/gtQuest/quest6.png" alt=""/>
+						<a href="img/academia/academia1.png" data-lightbox="example-set" data-title="Titulo">
+							<img class="imagemSecundaria col-md-4 img-responsive" src="img/academia/academia1.png" alt=""/>
 						</a>
 						
 						<!-- Imagens escodidas, somente para a galeria  -->
-						<a href="img/gtQuest/quest7.png" data-lightbox="example-set" data-title="Titulo" style="display: none;"></a>
+						<a href="img/academia/academia6.png" data-lightbox="example-set" data-title="Titulo" style="display: none;"></a>
 
-						<a href="img/gtQuest/quest5.png" data-lightbox="example-set" data-title="Titulo" style="display: none;"></a>
+						<a href="img/academia/academia4.png" data-lightbox="example-set" data-title="Titulo" style="display: none;"></a>
 
-						<a href="img/gtQuest/quest8.png" data-lightbox="example-set" data-title="Titulo" style="display: none;"></a>
-
-						<a href="img/gtQuest/quest10.png" data-lightbox="example-set" data-title="Titulo" style="display: none;"></a>
+						<a href="img/academia/academia5.png" data-lightbox="example-set" data-title="Titulo" style="display: none;"></a>
 					</div>
 				</div>
 
 				<div class="padding-40 col-md-6">
 
 					<h2 class="text-center">Descrição</h2>
-					<h4><i class="fa fa-check"></i> Ferrementa web de pesquisas e enquetes.</h4>
-					<h4><i class="fa fa-check"></i> Respostas das enquetes através de terminais de autoatendimento.</h4>
-					<h4><i class="fa fa-check"></i> Painel administrativo para gerenciamento de usuários e questionários.</h4>
-					<h4><i class="fa fa-check"></i> Relatórios em tempo real através de gráficos ou planilha excel.</h4>
-					<h4><i class="fa fa-check"></i> Importação de usuários através de planilha excel</h4>
-					<h4><i class="fa fa-check"></i> Configurações especiais através do painel administrativo como: logotipo, imagem inicial, cor da enquete, e mensagem final.</h4>
+					<h4><i class="fa fa-check"></i> Software desktop para gerenciamento de academia.</h4>
+					<h4><i class="fa fa-check"></i> Desenvolvimento orientado a objetos.</h4>
+					<h4><i class="fa fa-check"></i> Controle de pagamento de mensalidades através de web service.</h4>
+					<h4><i class="fa fa-check"></i> Backup da base de dados.</h4>
+					<h4><i class="fa fa-check"></i> Niveis de acesso de usuários para alunos, professores, financeiro e administradores.</h4>
+					<h4><i class="fa fa-check"></i> Impressão de ficha de treino em impressora térmica.</h4>
+					<h4><i class="fa fa-check"></i> Integração com leitor biométrico e webcam.</h4>
+
 
 					<h2 class="text-center padding-20">Tecnologias Utilizadas</h2>
 
 					<ul class="tecnologias text-center ">
-						<li><img class="imgTecnologia img-responsive" src="img/tecnologias/html5.png" alt="HTML5" title="HTML5"/></li>
-						<li><img class="imgTecnologia img-responsive" src="img/tecnologias/css3.png" alt="CSS3" title="CSS3"/></li>
-						<li><img class="imgTecnologia img-responsive" src="img/tecnologias/js.png" alt="JavaScript" title="JavaScript"/></li>
-						<li><img class="imgTecnologia img-responsive" src="img/tecnologias/bootstrap.png" alt="Twitter Bootstrap" title="Twitter Bootstrap"/></li>
-						<li><img class="imgTecnologia img-responsive" src="img/tecnologias/php.png" alt="PHP" title="PHP"/></li>
-						<li><img class="imgTecnologia img-responsive" src="img/tecnologias/ajax.png" alt="Ajax" title="Ajax"/></li>
-						<li><img class="imgTecnologia img-responsive" src="img/tecnologias/mysql.png" alt="MySQL" title="MySQL"/></li>
-						<li><img class="imgTecnologia img-responsive" src="img/tecnologias/google-charts.png" alt="Google Charts" title="Google Charts"/></li>
-						<li><img class="imgTecnologia img-responsive" src="img/tecnologias/amazon.png" alt="Amazon" title="Amazon"/></li>
-
+						<li><img class="imgTecnologia img-responsive" src="img/tecnologias/csharp.png" alt="C#" title="C#"/></li>
+						<li><img class="imgTecnologia img-responsive" src="img/tecnologias/firebird.png" alt="Firebird" title="Firebird"/></li>
+						
 					</ul>	
 				</div>
 			</div>
