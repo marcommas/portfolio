@@ -288,31 +288,32 @@
 	</section>
 	<!--Final sessão contato -->
 
+	<footer id="footer" >
+		<div class="text-center">
 
-	<section class="copyright text-center ">
+			<a href="https://github.com/marcommas" target="_blank">
+				<img src="img/sociais/github.png" class="imgSociais" alt="Github: marcommas" title="Github: marcommas">
+			</a>
+			
+			<a href="https://br.linkedin.com/in/marco-antônio-comassetto-3a80507b" target="_blank">
+				<img src="img/sociais/linkedin.png" class="imgSociais" alt="Linkedin: Marco Comassetto" title="Linkedin: Marco Comassetto">
+			</a>
 
-		<a href="https://github.com/marcommas" target="_blank">
-			<img src="img/sociais/github.png" class="imgSociais" alt="Github: marcommas" title="Github: marcommas">
-		</a>
-		
-		<a href="https://br.linkedin.com/in/marco-antônio-comassetto-3a80507b" target="_blank">
-			<img src="img/sociais/linkedin.png" class="imgSociais" alt="Linkedin: Marco Comassetto" title="Linkedin: Marco Comassetto">
-		</a>
+			<a href="https://www.facebook.com/marco.comassetto" target="_blank">
+				<img src="img/sociais/facebook.png" class="imgSociais" alt="Facebook: Marco Comassetto" title="Facebook: Marco Comassetto">
+			</a>	
 
-		<a href="https://www.facebook.com/marco.comassetto" target="_blank">
-			<img src="img/sociais/facebook.png" class="imgSociais" alt="Facebook: Marco Comassetto" title="Facebook: Marco Comassetto">
-		</a>	
+			
+			<img src="img/sociais/skype.png" class="imgSociais" alt="skype: marco.desenvolvimento" title="skype: marco.desenvolvimento">
+			
 
-		
-		<img src="img/sociais/skype.png" class="imgSociais" alt="skype: marco.desenvolvimento" title="skype: marco.desenvolvimento">
-		
+			<a href="mailto:marcommas@gmail.com" >
+				<img src="img/sociais/gmail.png" class="imgSociais" alt="Gmail: marcommas@gmail.com" title="Gmail: marcommas@gmail.com">
+			</a>	
 
-		<a href="mailto:marcommas@gmail.com" >
-			<img src="img/sociais/gmail.png" class="imgSociais" alt="Gmail: marcommas@gmail.com" title="Gmail: marcommas@gmail.com">
-		</a>	
-
-		<p class="copyright padding-20">© Copyright <?php echo date('Y');?> - Desenvolvido por Marco Comassetto</p>
-	</section>
+			<p class="copyright padding-10">© Copyright <?php echo date('Y');?> - Desenvolvido por Marco Comassetto</p>
+		</div>
+	</footer>
 
 
 	<script src="js/jquery-2.2.2.min.js" type="text/javascript" ></script>
