@@ -39,7 +39,6 @@ body > .container {
 	font-weight:bold; 
 
 }
-.descricao{}
 
 
 a:hover{text-decoration:none !important;}
@@ -217,13 +216,15 @@ ul.menu li a:hover{
 	background-attachment: fixed; 
   background-repeat:no-repeat;
   background-position: center; 
-  opacity:0.6;
+  opacity:0.7;
 }
 
 /*Slide*/
-.slide{padding:350px 0px;}
+.slide{
+  padding:350px 0px; 
+  color: #fff;
+}
 .mensagem-slide{
-  border: 1px solid #FFF;
   opacity: 1;
 }
 .titulo-slide{
@@ -325,7 +326,7 @@ p.copyright{
 /*Portfolio Paginas Separadas*/
 .imagemPrincipal{
   max-width: 548px;
-  border: 10px solid #A9A9A9;
+  border: 3px solid #A9A9A9;
 }
 
 .imagemSecundaria{
