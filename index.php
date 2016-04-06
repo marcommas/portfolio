@@ -58,10 +58,11 @@
 	<div class="clear"></div>
 
 	<section id="home" class="slide text-center backgound-parallax-slide color-white">
+		<div class="mensagem-slide">
 
 			<h1 class="titulo-slide">Bem-vindo ao meu Portfólio</h1>
 			<p class="descricao-slide">Navegue pelo site e conheça um pouco mais sobre mim :)</p>
-
+		</div>
 	</section>	
 	<!--Final da Section>-->
 	

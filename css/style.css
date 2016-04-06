@@ -213,12 +213,19 @@ ul.menu li a:hover{
 
 /*Background Parallax*/
 .backgound-parallax-slide{
-	background: url("../img/background-slide.jpg");
-	background-attachment: fixed;	
+	background: url("../img/background.jpg");
+	background-attachment: fixed; 
+  background-repeat:no-repeat;
+  background-position: center; 
+  opacity:0.6;
 }
 
 /*Slide*/
-.slide{padding:200px 0px;}
+.slide{padding:350px 0px;}
+.mensagem-slide{
+  border: 1px solid #FFF;
+  opacity: 1;
+}
 .titulo-slide{
   font-size: 60px;
 }
