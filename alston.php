@@ -71,20 +71,20 @@
 			
 			<div class="row">
 				<div class="padding-40 col-md-6">
-					<a href="img/alston/alston.png" data-lightbox="example-set" data-title="Titulo">
+					<a href="img/alston/alston.png" data-lightbox="example-set" data-title="Tela inicial de escolha de vídeos treinamentos.">
 						<img class="imagemPrincipal img-responsive" src="img/alston/alston.png" alt=""/>
 					</a>
 
 					<div class="padding-10">
-						<a href="img/alston/alston3.png" data-lightbox="example-set" data-title="Titulo">
+						<a href="img/alston/alston3.png" data-lightbox="example-set" data-title="Inserção de código de identificação.">
 							<img class="imagemSecundaria col-md-4 img-responsive" src="img/alston/alston3.png" alt=""/>
 						</a>
 
-						<a href="img/alston/alston4.png" data-lightbox="example-set" data-title="Titulo">
+						<a href="img/alston/alston4.png" data-lightbox="example-set" data-title="Opção de sair do programa com senha.">
 							<img class="imagemSecundaria col-md-4 img-responsive" src="img/alston/alston4.png" alt=""/>
 						</a>
 
-						<a href="img/alston/alston2.png" data-lightbox="example-set" data-title="Titulo">
+						<a href="img/alston/alston2.png" data-lightbox="example-set" data-title="Reprodução do vídeo treinamento.">
 							<img class="imagemSecundaria col-md-4 img-responsive" src="img/alston/alston2.png" alt=""/>
 						</a>
 						

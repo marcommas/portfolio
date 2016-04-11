@@ -71,31 +71,31 @@
 			
 			<div class="row">
 				<div class="padding-40 col-md-6">
-					<a href="img/gtQuest/quest3.png" data-lightbox="example-set" data-title="Titulo">
+					<a href="img/gtQuest/quest3.png" data-lightbox="example-set" data-title="Tela de respostas da enquete com imagens.">
 						<img class="imagemPrincipal img-responsive" src="img/gtQuest/quest3.png" alt=""/>
 					</a>
 
 					<div class="padding-10">
-						<a href="img/gtQuest/quest2.png" data-lightbox="example-set" data-title="Titulo">
+						<a href="img/gtQuest/quest2.png" data-lightbox="example-set" data-title="Página inicial das empresas disponíveis na pesquisa.">
 							<img class="imagemSecundaria col-md-4 img-responsive" src="img/gtQuest/quest2.png" alt=""/>
 						</a>
 
-						<a href="img/gtQuest/quest4.png" data-lightbox="example-set" data-title="Titulo">
+						<a href="img/gtQuest/quest4.png" data-lightbox="example-set" data-title="Login de acesso com teclado virtual.">
 							<img class="imagemSecundaria col-md-4 img-responsive" src="img/gtQuest/quest6.png" alt=""/>
 						</a>
 
-						<a href="img/gtQuest/quest6.png" data-lightbox="example-set" data-title="Titulo">
+						<a href="img/gtQuest/quest6.png" data-lightbox="example-set" data-title="Setor administrativo para gerenciamento de usuários.">
 							<img class="imagemSecundaria col-md-4 img-responsive" src="img/gtQuest/quest6.png" alt=""/>
 						</a>
 						
 						<!-- Imagens escodidas, somente para a galeria  -->
-						<a href="img/gtQuest/quest7.png" data-lightbox="example-set" data-title="Titulo" style="display: none;"></a>
+						<a href="img/gtQuest/quest7.png" data-lightbox="example-set" data-title="Relatório das respostas com gráficos de barra." style="display: none;"></a>
 
-						<a href="img/gtQuest/quest5.png" data-lightbox="example-set" data-title="Titulo" style="display: none;"></a>
+						<a href="img/gtQuest/quest5.png" data-lightbox="example-set" data-title="Importação de usuários através de upload de arquivo excel." style="display: none;"></a>
 
-						<a href="img/gtQuest/quest8.png" data-lightbox="example-set" data-title="Titulo" style="display: none;"></a>
+						<a href="img/gtQuest/quest8.png" data-lightbox="example-set" data-title="Gerenciamento de diversas configurações da página." style="display: none;"></a>
 
-						<a href="img/gtQuest/quest10.png" data-lightbox="example-set" data-title="Titulo" style="display: none;"></a>
+						<a href="img/gtQuest/quest10.png" data-lightbox="example-set" data-title="Gerenciamento de diversas configurações da página." style="display: none;"></a>
 					</div>
 				</div>
 

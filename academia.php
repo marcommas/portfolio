@@ -71,29 +71,29 @@
 			
 			<div class="row">
 				<div class="padding-40 col-md-6">
-					<a href="img/academia/academia3.png" data-lightbox="example-set" data-title="Titulo">
+					<a href="img/academia/academia3.png" data-lightbox="example-set" data-title="Gerenciamento de exercícios com imagens para que o aluno consiga visualizar o seu exercício.">
 						<img class="imagemPrincipal img-responsive" src="img/academia/academia3.png" alt=""/>
 					</a>
 
 					<div class="padding-10">
-						<a href="img/academia/academia2.png" data-lightbox="example-set" data-title="Titulo">
+						<a href="img/academia/academia2.png" data-lightbox="example-set" data-title="Cadastro de usuário com foto através de webcam.">
 							<img class="imagemSecundaria col-md-4 img-responsive" src="img/academia/academia2.png" alt=""/>
 						</a>
 
-						<a href="img/academia/academia7.png" data-lightbox="example-set" data-title="Titulo">
+						<a href="img/academia/academia7.png" data-lightbox="example-set" data-title="Controle de caixa.">
 							<img class="imagemSecundaria col-md-4 img-responsive" src="img/academia/academia7.png" alt=""/>
 						</a>
 
-						<a href="img/academia/academia1.png" data-lightbox="example-set" data-title="Titulo">
+						<a href="img/academia/academia1.png" data-lightbox="example-set" data-title="Tela inicial do usuário administrador.">
 							<img class="imagemSecundaria col-md-4 img-responsive" src="img/academia/academia1.png" alt=""/>
 						</a>
 						
 						<!-- Imagens escodidas, somente para a galeria  -->
-						<a href="img/academia/academia6.png" data-lightbox="example-set" data-title="Titulo" style="display: none;"></a>
+						<a href="img/academia/academia6.png" data-lightbox="example-set" data-title="Avaliação física com análise postural." style="display: none;"></a>
 
-						<a href="img/academia/academia4.png" data-lightbox="example-set" data-title="Titulo" style="display: none;"></a>
+						<a href="img/academia/academia4.png" data-lightbox="example-set" data-title="Pesquisa de usuários com filtros." style="display: none;"></a>
 
-						<a href="img/academia/academia5.png" data-lightbox="example-set" data-title="Titulo" style="display: none;"></a>
+						<a href="img/academia/academia5.png" data-lightbox="example-set" data-title="Gerenciamento de treinos de determinado aluno." style="display: none;"></a>
 					</div>
 				</div>
 
