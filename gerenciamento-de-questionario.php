@@ -120,6 +120,7 @@
 						<li><img class="imgTecnologia img-responsive" src="img/tecnologias/ajax.png" alt="Ajax" title="Ajax"/></li>
 						<li><img class="imgTecnologia img-responsive" src="img/tecnologias/mysql.png" alt="MySQL" title="MySQL"/></li>
 						<li><img class="imgTecnologia img-responsive" src="img/tecnologias/google-charts.png" alt="Google Charts" title="Google Charts"/></li>
+						<li><img class="imgTecnologia img-responsive" src="img/tecnologias/responsivo.png" alt="Responsivo" title="Responsivo"/></li>
 						<li><img class="imgTecnologia img-responsive" src="img/tecnologias/amazon.png" alt="Amazon" title="Amazon"/></li>
 
 					</ul>	

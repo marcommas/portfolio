@@ -335,6 +335,15 @@ p.copyright{
 
 }
 
+.link-descricao{
+  text-decoration: none;
+  color: inherit;
+}
+
+.link-descricao:hover,  .link-descricao:focus{
+  text-decoration: none;
+  color: #A52A2A;
+}
 
 /*Imagens das tecnologias*/
 ul.tecnologias{
@@ -351,6 +360,8 @@ ul.tecnologias li img{
 
 }
 
-
+ul.tecnologias a li img.imgTecnologia:hover{
+  opacity: 0.6;
+}
 
 

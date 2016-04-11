@@ -223,6 +223,14 @@
 			</div>
 
 			<div class="col-sm-6 col-md-4">
+				<h1 class="tituloImgPortfolio">E-commerce com RA</h1>
+				<a href="realidade-aumentada.php">
+					<img src="img/realidade-aumentada.png" class="imgPortfolio" alt="GTQuest" >
+				</a>
+				<h6>Saiba mais</h6>
+			</div>
+
+			<div class="col-sm-6 col-md-4">
 				<h1 class="tituloImgPortfolio">Visualização de Vídeos</h1>
 				<a href="alston.php">
 					<img src="img/alston.png" class="imgPortfolio"  alt="Alston">
@@ -231,29 +239,7 @@
 			</div>
 			
 
-			<div class="col-sm-6 col-md-4">
-				<h1 class="tituloImgPortfolio">Gerenciamento de Questionário</h1>
-				<a href="">
-					<img src="img/GTQuest.png" class="imgPortfolio" alt="GTQuest" >
-				</a>
-				<h6>Saiba mais</h6>
-			</div>
-
-			<div class="col-sm-6 col-md-4">
-				<h1 class="tituloImgPortfolio">Software para Academia</h1>
-				<a href="">
-					<img src="img/ActionBody.png" class="imgPortfolio"  alt="ActionBody">
-				</a>
-				<h6>Saiba mais</h6>
-			</div>
-
-			<div class="col-sm-6 col-md-4">
-				<h1 class="tituloImgPortfolio">Visualização de Vídeos</h1>
-				<a href="">
-					<img src="img/ActionBody.png" class="imgPortfolio"  alt="Alston">
-				</a>
-				<h6>Saiba mais</h6>
-			</div>
+			
 
 			
 

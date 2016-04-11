@@ -113,7 +113,7 @@
 						<li><img class="imgTecnologia img-responsive" src="img/tecnologias/sqlserver.png" alt="SQL Server" title="SQL Server"/></li>
 						<li><img class="imgTecnologia img-responsive" src="img/tecnologias/media-player.png" alt="Windows Media Player" title="Windows Media Player"/></li>
 						
-						<a href="https://github.com/marcommas/alstomVideoC-" target="_black">
+						<a href="https://github.com/marcommas/alstomVideoC-" target="_blank">
 							<li><img class="imgTecnologia img-responsive" src="img/tecnologias/github.png" alt="Github" title="Github"/></li>
 						</a>
 						
