@@ -205,44 +205,59 @@
 			<div class="divider"></div>
 			
 			<div class="padding-40 "></div>
+			<div class="row">
+				<div class="col-sm-6 col-md-4">
+					<h1 class="tituloImgPortfolio">E-commerce com RA</h1>
+					<a href="realidade-aumentada.php">
+						<img src="img/realidade-aumentada.png" class="imgPortfolio" alt="E-commerce com RA" >
+					
+					<h6>Saiba mais</h6>
+					</a>
+				</div>
 
-			<div class="col-sm-6 col-md-4">
-				<h1 class="tituloImgPortfolio">Gerenciamento de Questionário</h1>
-				<a href="gerenciamento-de-questionario.php">
-					<img src="img/GTQuest.png" class="imgPortfolio" alt="GTQuest" >
-				</a>
-				<h6>Saiba mais</h6>
-			</div>
+				<div class="col-sm-6 col-md-4">
+					<h1 class="tituloImgPortfolio">Gerenciamento de Questionário</h1>
+					<a href="gerenciamento-de-questionario.php">
+						<img src="img/GTQuest.png" class="imgPortfolio" alt="Gerenciamento de Questionário" >
+					
+					<h6>Saiba mais</h6>
+					</a>
+				</div>
 
-			<div class="col-sm-6 col-md-4">
-				<h1 class="tituloImgPortfolio">Software para Academia</h1>
-				<a href="academia.php">
-					<img src="img/ActionBody.png" class="imgPortfolio"  alt="ActionBody">
-				</a>
-				<h6>Saiba mais</h6>
-			</div>
-
-			<div class="col-sm-6 col-md-4">
-				<h1 class="tituloImgPortfolio">E-commerce com RA</h1>
-				<a href="realidade-aumentada.php">
-					<img src="img/realidade-aumentada.png" class="imgPortfolio" alt="GTQuest" >
-				</a>
-				<h6>Saiba mais</h6>
-			</div>
-
-			<div class="col-sm-6 col-md-4">
-				<h1 class="tituloImgPortfolio">Visualização de Vídeos</h1>
-				<a href="alston.php">
-					<img src="img/alston.png" class="imgPortfolio"  alt="Alston">
-				</a>
-				<h6>Saiba mais</h6>
+				<div class="col-sm-6 col-md-4">
+					<h1 class="tituloImgPortfolio">Software para Academia</h1>
+					<a href="academia.php">
+						<img src="img/ActionBody.png" class="imgPortfolio"  alt="ActionBody">
+					
+					<h6>Saiba mais</h6>
+					</a>
+				</div>
 			</div>
 			
+			<div class="row">
+				<div class="col-sm-6 col-md-4">
+					<h1 class="tituloImgPortfolio">Visualização de Vídeos</h1>
+					<a href="alston.php">
+						<img src="img/alston.png" class="imgPortfolio"  alt="Alston">
+					
+					<h6>Saiba mais</h6>
+					</a>
+				</div>
+				
+				<div class="col-sm-6 col-md-4">
+					<h1 class="tituloImgPortfolio">Hotsite Academia</h1>
+					<a href="hotsite-academia.php">
+						<img src="img/hotsite.png" class="imgPortfolio"  alt="Hotsite Academia">
+					
+					<h6>Saiba mais</h6>
+					</a>
+				</div>
 
-			
+				<div class="col-sm-6 col-md-4">
 
-			
+				</div>
 
+			</div>
 		</div>
 	</section>
 	<!--Final da Portfolio>-->
