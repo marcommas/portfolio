@@ -52,6 +52,17 @@ a:hover{text-decoration:none !important;}
 .header {
   background-color: #A52A2A;
   border-color: #e7e7e7;
+
+  /*padding: 9em 0 9em 0 ;*/
+ /* background-color: #4686a0;
+  color: rgba(255, 255, 255, 0.75);
+  background-attachment: fixed,             fixed,              fixed;
+  background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
+  background-position: top left,            center center,          center center;
+  background-size: auto,              cover,              cover;
+  overflow: hidden;
+  position: relative;
+  text-align: center;*/
 }
 .header .navbar-brand {
   color: #777;
@@ -64,14 +75,6 @@ a:hover{text-decoration:none !important;}
 .header .navbar-text {
   color: #777;
 }
-/*.header .navbar-nav > li > a {
-  color: #777;
-}
-.header .navbar-nav > li > a:hover,
-.header .navbar-nav > li > a:focus {
-  color: #333;
-  background-color: transparent;
-}*/
 .header .navbar-nav > .active > a,
 .header .navbar-nav > .active > a:hover,
 .header .navbar-nav > .active > a:focus {
@@ -85,14 +88,14 @@ a:hover{text-decoration:none !important;}
   background-color: transparent;
 }
 .header .navbar-toggle {
-  border-color: #ddd;
+  border-color: #fff  ;
 }
 .header .navbar-toggle:hover,
 .header .navbar-toggle:focus {
-  background-color: #ddd;
+  background-color: #A80000 ;
 }
 .header .navbar-toggle .icon-bar {
-  background-color: #888;
+  background-color: #fff;
 }
 .header .navbar-collapse,
 .header .navbar-form {
@@ -151,37 +154,27 @@ fieldset[disabled] .header .btn-link:focus {
   color: #FFF;
   float: left;
   margin-left:10px;
+  margin-top:5px;
 }
 
 .nome :hover {
   color: #CD5C5C;
   text-decoration: none;
+  opacity:0.7;
 }
 .nome :focus {
   color: #CD5C5C;
   text-decoration: none;
 }
 
-.nomeComplemento{
-  color: #FFF;
-  margin-left:10px;
-}
-
-.nomeComplemento :hover {
-  color: #FFF;
-  text-decoration: none;
-}
-
-.nomeComplemento :focus {
-  color: #FFF;
-  text-decoration: none;
-}
 
 ul.menu{
+  font-family: Letter Gothic Std;
   list-style: none;
  /* float: right;*/
-  margin-top: 10px;
-  margin-right:  10px ;
+  margin-top: 20px;
+  margin-right:  20px ;
+  margin-bottom:  15px ;
 }
 ul.menu li{
   display: inline;
@@ -190,13 +183,44 @@ ul.menu li a{
   margin: 0px 0px;
   color: #FFF;
   /* font-weight: bold; */
-  font-size: 16px;
+  font-size: 22px;
 }
 ul.menu li a:hover{
   color: #CD5C5C;
   text-decoration: none;
   background-color: transparent;
 }
+
+.cl-effect-3 a {
+  padding: 8px 0;
+}
+
+.cl-effect-3 a::after {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background: rgba(0,0,0,0.1);
+  content: '';
+  opacity: 0;
+  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+  -moz-transition: opacity 0.3s, -moz-transform 0.3s;
+  transition: opacity 0.3s, transform 0.3s;
+  -webkit-transform: translateY(10px);
+  -moz-transform: translateY(10px);
+  transform: translateY(10px);
+}
+
+.cl-effect-3 a:hover::after,
+.cl-effect-3 a:focus::after {
+  opacity: 1;
+  -webkit-transform: translateY(0px);
+  -moz-transform: translateY(0px);
+  transform: translateY(0px);
+}
+
+
 
 /*Paddings*/
 .padding-10{padding:10px 0px;}
@@ -209,6 +233,7 @@ ul.menu li a:hover{
 .padding-80{padding:80px 0px;}
 .padding-90{padding:90px 0px;}
 .padding-100{padding:100px 0px;}
+.padding-top-80{padding-top:80px;}
 
 /*Background Parallax*/
 .backgound-parallax-slide{
@@ -217,6 +242,7 @@ ul.menu li a:hover{
   background-repeat:no-repeat;
   background-position: center; 
   opacity:0.7;
+
 }
 
 /*Slide*/
@@ -226,13 +252,17 @@ ul.menu li a:hover{
 }
 .mensagem-slide{
   opacity: 1;
+    font-family: Letter Gothic Std;
+   
 }
 .titulo-slide{
-  font-size: 60px;
+  font-size: 80px;
+   font-weight: bold;
 }
 .descricao-slide{
   padding-bottom: 20px;
-  font-size: 30px;
+  font-size: 40px;
+   font-weight: bold;
 }
 
 /*Sobre*/

@@ -10,6 +10,8 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
+
+	<!--<link rel="stylesheet" href="assets-photton/css/main.css" />-->
 	
 	<!--[if lt IE 9]>
 	<script src="js/modernizr.min.js" type="text/javascript" ></script>
@@ -19,7 +21,7 @@
 <body>
 	
 
-	<nav class="navbar header    navbar-fixed-top">
+	<nav class="navbar header navbar-fixed-top">
 
 		<div class="navbar-header">
 		    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -30,42 +32,41 @@
 		    </button>
 
 		    
-	    	<a href="#" class="nome" >
-	    		<h2 class="nome"><span style="font-size: 40px;">M</span>arco <span style="font-size: 40px;">C</span>omassetto</h2>
-	    		<h5 class="nomeComplemento" >Desenvolvedor de Software</h5>
+	    	<a href="index.php" class="nome" >
+	    		<img src="img/logo.png" class="img-responsive" style="max-width: 240px;">
 	    	</a>
 			
 		</div>
 		<div id="navbar" class="navbar-collapse collapse">
-		    <ul class="nav menu navbar-nav navbar-right ">
+		    <ul class="nav menu navbar-nav navbar-right cl-effect-3 ">
 
 				<li>
-					<a href="#sobre"><i class="fa fa-3x fa-user"></i> SOBRE</a>
+					<a href="#sobre"> Sobre</a>
 				</li>
 				<li>
-					<a href="#portfolio"><i class="fa fa-3x fa-desktop"></i> PORTFÓLIO</a>
+					<a href="#portfolio"> Portfólio</a>
 				</li>
 				<li>
-					<a href="#contato"><i class="fa fa-3x fa-envelope-o"></i> CONTATO</a>
+					<a href="#contato"> Contato</a>
 				</li>
 		    </ul>
 		</div>
 
 	</nav>
 
-	<!-- Final do Header-->
-
 	<div class="clear"></div>
 
 	<section id="home" class="slide text-center backgound-parallax-slide">
+	
 		<div class="mensagem-slide">
-			<h1 class="titulo-slide">Bem-vindo ao meu Portfólio</h1>
+			<h2 class="titulo-slide">Bem-vindo ao meu Portfólio</h2>
 			<p class="descricao-slide">Navegue pelo site e conheça um pouco mais sobre mim :)</p>
 		</div>
+
 	</section>	
 	<!--Final da Section>-->
 	
-	<section id="sobre" class="sobre padding-40">
+	<section id="sobre" class="sobre  padding-top-80">
 		<div class="container ">
 			<h1 class="titulo"><i class="fa fa-2x fa-home"></i> Quem sou eu?</h1>
 			<div class="divider"></div>
@@ -199,7 +200,7 @@
 	<!--Final da Sobre>-->
 
 
-	<section id="portfolio" class="portfolio padding-40">
+	<section id="portfolio" class="portfolio padding-top-80">
 		<div class="container">
 			<h1 class="titulo"><i class="fa fa-2x fa-desktop"></i> Portfólio</h1>
 			<div class="divider"></div>
@@ -254,15 +255,21 @@
 				</div>
 
 				<div class="col-sm-6 col-md-4">
-
+					<h1 class="tituloImgPortfolio">Software Impressão de Crônicas</h1>
+					<a href="cronica.php">
+						<img src="img/sicoob1.png" class="imgPortfolio"  alt="Impressão de Crônicas">
+					
+					<h6>Saiba mais</h6>
+					</a>
 				</div>
+
 
 			</div>
 		</div>
 	</section>
 	<!--Final da Portfolio>-->
 
-	<section  class="contato padding-40">
+	<section  class="contato  padding-top-80">
 		<div class="container">
 			<h1 id="contato" class="titulo"><i class="fa fa-2x fa-envelope-o"></i> Contato</h1>
 			<div class="divider"></div>
@@ -319,5 +326,7 @@
 
 	<script src="js/jquery-2.2.2.min.js" type="text/javascript" ></script>
 	<script src="js/bootstrap.min.js" type="text/javascript" ></script>
+
+
 </body>
 </html>
