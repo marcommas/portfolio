@@ -212,7 +212,7 @@
 					<a href="realidade-aumentada.php">
 						<img src="img/realidade-aumentada.png" class="imgPortfolio" alt="E-commerce com RA" >
 					
-					<h6>Saiba mais</h6>
+					<h6 class="color-red">Saiba mais</h6>
 					</a>
 				</div>
 
@@ -221,7 +221,7 @@
 					<a href="gerenciamento-de-questionario.php">
 						<img src="img/GTQuest.png" class="imgPortfolio" alt="Gerenciamento de Questionário" >
 					
-					<h6>Saiba mais</h6>
+					<h6 class="color-red">Saiba mais</h6>
 					</a>
 				</div>
 
@@ -230,7 +230,7 @@
 					<a href="academia.php">
 						<img src="img/ActionBody.png" class="imgPortfolio"  alt="ActionBody">
 					
-					<h6>Saiba mais</h6>
+					<h6 class="color-red">Saiba mais</h6>
 					</a>
 				</div>
 			</div>
@@ -241,7 +241,7 @@
 					<a href="alston.php">
 						<img src="img/alston.png" class="imgPortfolio"  alt="Alston">
 					
-					<h6>Saiba mais</h6>
+					<h6 class="color-red">Saiba mais</h6>
 					</a>
 				</div>
 				
@@ -250,7 +250,7 @@
 					<a href="hotsite-academia.php">
 						<img src="img/hotsite.png" class="imgPortfolio"  alt="Hotsite Academia">
 					
-					<h6>Saiba mais</h6>
+					<h6 class="color-red">Saiba mais</h6>
 					</a>
 				</div>
 
@@ -259,7 +259,7 @@
 					<a href="cronica.php">
 						<img src="img/sicoob1.png" class="imgPortfolio"  alt="Impressão de Crônicas">
 					
-					<h6>Saiba mais</h6>
+					<h6 class="color-red" >Saiba mais</h6>
 					</a>
 				</div>
 

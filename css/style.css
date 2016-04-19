@@ -46,6 +46,9 @@ a:hover{text-decoration:none !important;}
 
 /*Cores*/
 .color-white{color: #FFF;}
+.color-red{color: #A52A2A;}
+
+
 
 
 /*Header*/
@@ -277,12 +280,14 @@ ul.menu li a:hover{
 }
 
 /*Portfólio*/
-.portfolio{}
 
 .imgPortfolio{
   max-width:260px;
   border: 10px solid #A9A9A9;
 }
+
+.imgPortfolio:hover{opacity: 0.7;}
+
 
 .tituloImgPortfolio{
   font-size: 22px;
