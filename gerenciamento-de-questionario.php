@@ -23,7 +23,7 @@
 <body>
 	
 
-	<nav class="navbar header   navbar-fixed-top">
+	<nav class="navbar header navbar-fixed-top">
 
 		<div class="navbar-header">
 		    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -34,23 +34,22 @@
 		    </button>
 
 		    
-	    	<a href="#" class="nome" >
-	    		<h2 class="nome"><span style="font-size: 40px;">M</span>arco <span style="font-size: 40px;">C</span>omassetto</h2>
-	    		<h5 class="nomeComplemento" >Desenvolvedor de Software</h5>
+	    	<a href="index.php" class="nome" >
+	    		<img src="img/logo.png" class="img-responsive" style="max-width: 240px;">
 	    	</a>
 			
 		</div>
 		<div id="navbar" class="navbar-collapse collapse">
-		    <ul class="nav menu navbar-nav navbar-right ">
+		    <ul class="nav menu navbar-nav navbar-right cl-effect-3 ">
 
 				<li>
-					<a href="index.php#sobre"><i class="fa fa-3x fa-user"></i> SOBRE</a>
+					<a href="index.php#sobre"> Sobre</a>
 				</li>
 				<li>
-					<a href="index.php#portfolio"><i class="fa fa-3x fa-desktop"></i> PORTFÓLIO</a>
+					<a href="index.php#portfolio"> Portfólio</a>
 				</li>
 				<li>
-					<a href="index.php#contato"><i class="fa fa-3x fa-envelope-o"></i> CONTATO</a>
+					<a href="index.php#contato"> Contato</a>
 				</li>
 		    </ul>
 		</div>
