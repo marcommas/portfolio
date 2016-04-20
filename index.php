@@ -17,6 +17,8 @@
 	<script src="js/modernizr.min.js" type="text/javascript" ></script>
 	<script src="js/html5shiv.min.js" type="text/javascript" ></script>
 	<![endif]-->
+
+	
 </head>
 <body>
 	
@@ -31,10 +33,14 @@
 			    <span class="icon-bar"></span>
 		    </button>
 
-		    
-	    	<a href="index.php" class="nome" >
-	    		<img src="img/logo.png" class="img-responsive" style="max-width: 240px;">
-	    	</a>
+		    <ul>
+		    	<li>
+		    		<a href="#home" class="nome" >
+			    		<img src="img/logo.png" class="img-responsive" style="max-width: 240px;">
+			    	</a>
+		    	</li>
+		    </ul>
+	    	
 			
 		</div>
 		<div id="navbar" class="navbar-collapse collapse">
@@ -71,127 +77,134 @@
 			<h1 class="titulo"><i class="fa fa-2x fa-home"></i> Quem sou eu?</h1>
 			<div class="divider"></div>
 			
-			<div class="col-md-8 col-sm-6 padding-80">
-				<blockquote>
-					<h4>Meu nome é <strong>Marco Antônio Comassetto</strong>, sou natural de Concórdia, Santa Catarina, atualmente moro em Florianópolis, tenho 24 anos e sou <strong>Bacharel em Sistemas de Informação</strong> pela Universidade do Estado de Santa Catarina.</h4>
-				</blockquote>
+			<div class="row">
+			
+				<div class="col-md-8 col-sm-6 padding-80">
+					<blockquote>
+						<h4>Meu nome é <strong>Marco Antônio Comassetto</strong>, sou natural de Concórdia, Santa Catarina, atualmente moro em Florianópolis, tenho 24 anos e sou <strong>Bacharel em Sistemas de Informação</strong> pela Universidade do Estado de Santa Catarina.</h4>
+					</blockquote>
+					
+				</div>
 				
+				<div class="col-md-4 col-sm-6 padding-40 ">
+					<img src="img/marco.jpg" id="minhaFoto" class="img-circle img-responsive"  alt="Marco Comassetto">
+				</div >
+
 			</div>
+
+			<div class="row">
 			
-			<div class="col-md-4 col-sm-6 padding-40">
-				<img src="img/marco.jpg" id="minhaFoto" class="img-circle img-responsive"  alt="Marco Comassetto">
-			</div >
-			
-			<div class="col-md-12">
-				<article class="col-md-6">
-					<h1 class="text-center">Experiência</h1>
+				<div class="col-md-12">
+					<article class="col-md-6">
+						<h1 class="text-center">Experiência</h1>
 
 
-					<div class="col-sm-6">
-						<h4>Genialtec Soluções em Tecnologia</h4>
-						<h5>set/2015 - mar/2016</h5>
-					</div>
+						<div class="col-sm-6">
+							<h4>Genialtec Soluções em Tecnologia</h4>
+							<h5>set/2015 - mar/2016</h5>
+						</div>
 
-					<div class="col-sm-6">
-						<h4>Programador</h4>
-						<h5>Experiência no planejamento, análise, modelagem e desenvolvimento de softwares, envolvendo a aplicação de linguagens e ambientes de programação</h5>
+						<div class="col-sm-6">
+							<h4>Programador</h4>
+							<h5>Experiência no planejamento, análise, modelagem e desenvolvimento de softwares, envolvendo a aplicação de linguagens e ambientes de programação</h5>
+							
+						</div>
+
+						<div class="col-sm-12"><div class="divider-dashed"></div></div>
+
+						<div class="col-sm-6">
+							<h4>Genialtec Soluções em Tecnologia</h4>
+							<h5>set/2013 - set/2015</h5>
+						</div>
+
+						<div class="col-sm-6">
+							<h4>Estágio de Programaçãoo</h4>
+							<h5>Atuação na implantação de códigos executáveis e testes unitários e integrados do seu funcionamento, possibilitando a identificação e correção de possíveis exceções e erros</h5>
+
+						</div>
 						
-					</div>
+						<div class="col-sm-12"><div class="divider-dashed"></div></div>	
 
-					<div class="col-sm-12"><div class="divider-dashed"></div></div>
-
-					<div class="col-sm-6">
-						<h4>Genialtec Soluções em Tecnologia</h4>
-						<h5>set/2013 - set/2015</h5>
-					</div>
-
-					<div class="col-sm-6">
-						<h4>Estágio de Programaçãoo</h4>
-						<h5>Atuação na implantação de códigos executáveis e testes unitários e integrados do seu funcionamento, possibilitando a identificação e correção de possíveis exceções e erros</h5>
-
-					</div>
-					
-					<div class="col-sm-12"><div class="divider-dashed"></div></div>	
-
-					<div class="col-sm-6">
-						<h4>Universidade do Estado de Santa Catarina</h4>
-						<h5>mar/2013 - jul/2014</h5>
-					</div>
-
-					<div class="col-sm-6">
-						<h4>Monitor de Programação</h4>
-						<h5>Responsável pelo auxílio aos alunos na disciplina de programação orientados a objetos na linguagem Java. </h5>
-					</div>
-
-				</article>
-
-				<article class="col-md-6" >
-					<h1 class="text-center">Tecnologia</h1>
-					
-					<div class="progress">
-						<div class="progress-bar progress-bar-success texto-progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 80%; text-align: left; font-size: 19px;">
-						PHP
+						<div class="col-sm-6">
+							<h4>Universidade do Estado de Santa Catarina</h4>
+							<h5>mar/2013 - jul/2014</h5>
 						</div>
 
-					</div>
-					
-					<div class="progress">
-						<div class="progress-bar progress-bar-success texto-progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 90%; text-align: left; font-size: 19px;">
-						HTML5 / CSS3
+						<div class="col-sm-6">
+							<h4>Monitor de Programação</h4>
+							<h5>Responsável pelo auxílio aos alunos na disciplina de programação orientados a objetos na linguagem Java. </h5>
 						</div>
 
-					</div>
+					</article>
 
-					<div class="progress">
-						<div class="progress-bar progress-bar-success texto-progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 70%; text-align: left; 	font-size: 19px; ">
-						JavaScript
+					<article class="col-md-6" >
+						<h1 class="text-center">Tecnologia</h1>
+						
+						<div class="progress">
+							<div class="progress-bar progress-bar-success texto-progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 80%; text-align: left; font-size: 19px;">
+							PHP
+							</div>
+
+						</div>
+						
+						<div class="progress">
+							<div class="progress-bar progress-bar-success texto-progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 90%; text-align: left; font-size: 19px;">
+							HTML5 / CSS3
+							</div>
+
 						</div>
 
-					</div>
+						<div class="progress">
+							<div class="progress-bar progress-bar-success texto-progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 70%; text-align: left; 	font-size: 19px; ">
+							JavaScript
+							</div>
 
-					<div class="progress">
-						<div class="progress-bar progress-bar-success texto-progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 60%; text-align: left; font-size: 19px;">
-						Laravel
 						</div>
 
-					</div>
+						<div class="progress">
+							<div class="progress-bar progress-bar-success texto-progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 60%; text-align: left; font-size: 19px;">
+							Laravel
+							</div>
 
-					<div class="progress">
-						<div class="progress-bar progress-bar-success texto-progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 90%; text-align: left; font-size: 19px;">
-						Bootstrap
 						</div>
 
-					</div>
-					
-					
-					<div class="progress">
-						<div class="progress-bar progress-bar-success texto-progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 80%; text-align: left; font-size: 19px;">
-						C#
+						<div class="progress">
+							<div class="progress-bar progress-bar-success texto-progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 90%; text-align: left; font-size: 19px;">
+							Bootstrap
+							</div>
+
+						</div>
+						
+						
+						<div class="progress">
+							<div class="progress-bar progress-bar-success texto-progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 80%; text-align: left; font-size: 19px;">
+							C#
+							</div>
+
 						</div>
 
-					</div>
+						<div class="progress">
+							<div class="progress-bar progress-bar-success texto-progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 90%; text-align: left; font-size: 19px;">
+							MySQL
+							</div>
 
-					<div class="progress">
-						<div class="progress-bar progress-bar-success texto-progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 90%; text-align: left; font-size: 19px;">
-						MySQL
 						</div>
 
-					</div>
+						<div class="progress">
+							<div class="progress-bar progress-bar-success texto-progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 80%; text-align: left; font-size: 19px;">
+							SQL Server
+							</div>
 
-					<div class="progress">
-						<div class="progress-bar progress-bar-success texto-progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 80%; text-align: left; font-size: 19px;">
-						SQL Server
 						</div>
 
-					</div>
+						<div class="progress">
+							<div class="progress-bar progress-bar-success texto-progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 70%; text-align: left; font-size: 19px;">
+							Firebird
+							</div>
 
-					<div class="progress">
-						<div class="progress-bar progress-bar-success texto-progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 70%; text-align: left; font-size: 19px;">
-						Firebird
 						</div>
-
-					</div>
-				</article>
+					</article>
+				<div>
 			</div>
 		</div>
 
@@ -205,7 +218,7 @@
 			<h1 class="titulo"><i class="fa fa-2x fa-desktop"></i> Portfólio</h1>
 			<div class="divider"></div>
 			
-			<div class="padding-40 "></div>
+			<div class="padding-40"></div>
 			<div class="row">
 				<div class="col-sm-6 col-md-4">
 					<h1 class="tituloImgPortfolio">E-commerce com RA</h1>
@@ -327,6 +340,16 @@
 	<script src="js/jquery-2.2.2.min.js" type="text/javascript" ></script>
 	<script src="js/bootstrap.min.js" type="text/javascript" ></script>
 
-
+	<script type="text/javascript">
+		
+		$(function(){
+			$("ul li a").click(function (event) {
+				event.preventDefault();
+				var idElemento = $(this).attr("href");
+				var deslocamento = $(idElemento).offset().top;
+				$('html, body').animate({ scrollTop: deslocamento }, 'slow');
+			});
+		});
+	</script>
 </body>
 </html>
